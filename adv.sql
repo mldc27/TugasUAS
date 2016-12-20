@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Dec 17, 2016 at 08:41 
+-- Generation Time: Dec 20, 2016 at 09:56 
 -- Server version: 5.1.41
 -- PHP Version: 5.3.1
 
@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS `tbl_admin` (
 --
 
 INSERT INTO `tbl_admin` (`id_admin`, `username`, `password`, `nama_admin`) VALUES
-(2, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin');
+(2, 'admin', '91183e1cb4e46961f86a2ef6287927ad', 'admin');
 
 -- --------------------------------------------------------
 
@@ -92,8 +92,8 @@ CREATE TABLE IF NOT EXISTS `tbl_siswa` (
 --
 
 INSERT INTO `tbl_siswa` (`no_pendaftaran`, `nisn`, `nama`, `jenis_kelamin`, `tempat_lahir`, `tgl_lahir`, `agama`, `alamat`, `no_telp`, `asal_smp`) VALUES
-(0001, '11', 'Kiki', '', 'Bwi', '1994-03-13', 'Islam', 'Bwi', '0876555545', 'SMPN 1 GIRI'),
-(0002, '123', 'Anisa', '', 'Bwi', '1994-03-13', 'Islam', 'Bwi', '08765467778', 'SMPN 1 GIRI');
+(0001, '11', 'ruby', 'L', 'Bwi', '1994-03-13', 'Islam', 'Bwi', '0876555545', 'SMPN 1 GIRI'),
+(0002, '123', 'aska', 'L', 'Bwi', '1994-03-13', 'Islam', 'Bwi', '08765467778', 'SMPN 1 GIRI');
 
 -- --------------------------------------------------------
 
